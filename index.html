@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tesla Model 3</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="brand" href="#"><img src="assets/logo-wide.svg" alt="Tesla"></a>
+    <nav class="nav-links" aria-label="Үндсэн цэс">
+      <a href="#vehicle">Vehicle</a><a href="#energy">energy</a><a href="#charging">charging</a><a href="#discover">discover</a>
+      <a href="#shop">Shop <span>⌄</span></a>
+    </nav>
+    <a class="button button-dark test-drive" href="#drive">жолоодож үзэх</a>
+    <button class="menu" aria-label="Цэс нээх" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="vehicle">
+      <div class="hero-content">
+        <h1>Model 3</h1><p>1.99% APR available</p>
+        <div class="actions"><a class="button button-dark" href="#order">Захиалах</a><a class="button button-light" href="#details">Дэлгэрэнгүй</a></div>
+      </div>
+    </section>
+
+    <section class="feature" id="discover">
+      <div class="feature-copy">
+        <h2>Full self-Driving<br>(Supervised)</h2>
+        <p>Makes every drive easier. Subscribe for $99/mo</p>
+        <div class="stats"><div><strong>7x</strong><span>Fewer collisions</span></div><div><strong>13,534,246,950</strong><span>Miles Driven</span></div></div>
+        <div class="actions"><a class="button button-outline" href="#order">Захиалах</a><a class="text-link" href="#details">Дэлгэрэнгүй <span>›</span></a></div>
+      </div>
+      <img class="feature-image" src="assets/self-driving.png" alt="Tesla өөрөө жолоодох системтэй автомашин">
+    </section>
+
+    <section class="stories">
+      <div class="section-heading"><h2>Driver stories</h2><p>Real drivers. Real roads. Real miles behind the wheel.</p></div>
+      <div class="story-viewport"><div class="story-track">
+        <article class="story-card"><img src="assets/story-model-y.png" alt="Хотын зам дээрх Model Y"><div class="story-body"><p>Model Y L Premium</p><div class="story-meta"><div><strong>Starting at $61,9902</strong><span>Engineer, Denver</span></div><img src="assets/relume.svg" alt="Relume"></div></div></article>
+        <article class="story-card"><img src="assets/story-model-3.png" alt="Уулын зам дээрх Model 3"><div class="story-body"><p>Model 3</p><div class="story-meta"><div><strong>Lease from $379/mo</strong><span>Engineer, Denver</span></div><img src="assets/webflow.svg" alt="Webflow"></div></div></article>
+        <article class="story-card"><img src="assets/story-road.png" alt="Tesla жолоочийн түүх"><div class="story-body"><p>“The car handles mountain roads like it was born there.”</p><div class="story-meta"><div><strong>Sarah Chen</strong><span>Architect, Seattle</span></div><img src="assets/relume.svg" alt="Relume"></div></div></article>
+        <article class="story-card"><img src="assets/story-road.png" alt="Tesla жолоочийн түүх"><div class="story-body"><p>“I arrive ready to work.”</p><div class="story-meta"><div><strong>Mike Torres</strong><span>Chef, Austin</span></div><img src="assets/webflow.svg" alt="Webflow"></div></div></article>
+      </div></div>
+      <div class="slider-controls"><div class="dots" aria-hidden="true"></div><div><button class="arrow" data-dir="-1" aria-label="Өмнөх">←</button><button class="arrow" data-dir="1" aria-label="Дараах">→</button></div></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
